@@ -31,15 +31,18 @@ path {
 }
 
 .beige {
-    background-color: beige;
+    /* background-color: beige; */
+    background-color: rgb(240,217,181);
 }
 
 .brown {
-    background-color: rgb(111, 1, 1);
+    /* background-color: rgb(111, 1, 1); */
+    background-color: rgb(181, 136, 99);
 }
 
 .black {
-    fill: rgb(108, 0, 0);
+    /* fill: rgb(108, 0, 0); */
+    fill: rgb(0, 0, 0);
 }
 
 .white {

@@ -246,7 +246,7 @@ function checkIfValid(target) {
         break;
 
     case 'queen':
-        // Lisää logiikka kuninkaan siirroille
+        // Lisää logiikka kuningattaren siirroille
         if (
             startId + width + 1 === targetId ||
             startId + width * 2 + 2 === targetId && !document.querySelector(`[square-id="${startId + width + 1}"]`)?.firstChild ||
